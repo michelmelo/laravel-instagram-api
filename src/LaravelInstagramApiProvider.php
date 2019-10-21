@@ -36,9 +36,11 @@ class LaravelInstagramApiProvider extends ServiceProvider
     private function registerInstagramApi()
     {
         $this->app->singleton('instagram.singleton', function ($app) {
-            $instance = new Instagram($app['config']->get('instagram-api.debug', false),
+            $instance = new Instagram(
+                $app['config']->get('instagram-api.debug', false),
                 $app['config']->get('instagram-api.truncated_debug', false),
-                $app['config']->get('instagram-api.storageConfi', []));
+                $app['config']->get('instagram-api.storageConfi', [])
+            );
 
             $useProxy = $app['config']->get('instagram-api.use_proxy', false);
             $proxies = $app['config']->get('instagram-api.proxies', false);
