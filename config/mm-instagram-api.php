@@ -15,7 +15,10 @@ return [
      * Settings adapter
      * @var array|null
      */
-    'storage_config' => [],
+    'storage_config' => [
+        'storage'    => 'file',
+        'basefolder' => storage_path() . '/instagram-api'
+    ],
 
     /**
      * Enable or disable using proxies in the API
