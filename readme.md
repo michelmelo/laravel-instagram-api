@@ -1,3 +1,4 @@
+![License: MIT](https://img.shields.io/badge/License-WTFPL-blue.svg)
 # Laravel Instagram API 
 
 Laravel integration for the [Instagram private API](https://github.com/mgp25/Instagram-API/) package.
