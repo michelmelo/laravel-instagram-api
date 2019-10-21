@@ -1,0 +1,22 @@
+{
+  "name": "michelmelo/laravel-instagram-api",
+  "description": "Implementation Instagram private API for Laravel",
+  "keywords": [
+    "instagram",
+    "laravel",
+    "instagram-api"
+  ],
+  "license": "WTFPL",
+  "type": "package",
+  "require": {
+    "php": ">=5.6.4",
+    "mgp25/instagram-php": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "MichelMelo\\InstagramApi\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+}
