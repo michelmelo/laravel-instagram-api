@@ -52,3 +52,8 @@ instead
 $instagram = new Instagram($debug);
 $instagram->setUser($username, $password);
 ```
+
+
+### Pull Requests
+
+* Fill in the [PULL_REQUEST template](PULL_REQUEST_TEMPLATE.md).
