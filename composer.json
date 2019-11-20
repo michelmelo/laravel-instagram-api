@@ -6,7 +6,6 @@
         "laravel",
         "instagram-api"
     ],
-     "type": "library",
     "license": "WTFPL",
     "authors": [
         {
