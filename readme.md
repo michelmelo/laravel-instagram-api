@@ -3,6 +3,9 @@
 
 Laravel integration for the [Instagram private API](https://github.com/mgp25/Instagram-API/) package.
 
+# alteracoes
+## apikey
+
 
 # Install
 
