@@ -16,7 +16,7 @@ class LaravelInstagramApiProvider extends ServiceProvider {
 
 	/**
 	 * Register the service provider.
-	 *
+	 * @todo Take over the world
 	 * @return void
 	 */
 	public function register() {
