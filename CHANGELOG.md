@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.10.0 - 2020-02-11
+
+* update instagram api
+
 ## 1.7.0 - 2020-01-03
 
 * Revert "Composer: Update symfony/process"
