@@ -18,4 +18,6 @@ jobs:
       uses: anothrNick/github-tag-action@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        REPO_OWNER: keithweaver
+        REPO_OWNER: michelmelo
+        WITH_V: true
+        DEFAULT_BUMP: minor
