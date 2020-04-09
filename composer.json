@@ -18,7 +18,7 @@
     "homepage": "https://github.com/michelmelo/laravel-instagram-api",
     "require": {
         "php": ">=5.6.4",
-        "michelmelo/instagram-private-api": "2.0.0"
+        "michelmelo/instagram-private-api": "^2.0.1"
     },
     "autoload": {
         "psr-4": {
